@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/agiledragon/gomonkey"
+	"github.com/lnyyj/wechatpay-go/core/auth"
+	"github.com/lnyyj/wechatpay-go/utils"
 	"github.com/stretchr/testify/require"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/auth"
-	"github.com/wechatpay-apiv3/wechatpay-go/utils"
 )
 
 type mockSigner struct {

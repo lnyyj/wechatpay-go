@@ -45,10 +45,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/wechatpay-apiv3/wechatpay-go/core"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/option"
-	"github.com/wechatpay-apiv3/wechatpay-go/services/certificates"
-	"github.com/wechatpay-apiv3/wechatpay-go/utils"
+	"github.com/lnyyj/wechatpay-go/core"
+	"github.com/lnyyj/wechatpay-go/core/option"
+	"github.com/lnyyj/wechatpay-go/services/certificates"
+	"github.com/lnyyj/wechatpay-go/utils"
 )
 
 func main() {
@@ -102,7 +102,7 @@ func main() {
 ```go
 import (
 	"log"
-	"github.com/wechatpay-apiv3/wechatpay-go/services/payments/jsapi"
+	"github.com/lnyyj/wechatpay-go/services/payments/jsapi"
 )
 
 svc := jsapi.JsapiApiService{Client: client}
@@ -136,7 +136,7 @@ if err == nil {
 ```go
 import (
 	"log"
-	"github.com/wechatpay-apiv3/wechatpay-go/services/payments/jsapi"
+	"github.com/lnyyj/wechatpay-go/services/payments/jsapi"
 )
 
 svc := jsapi.JsapiApiService{Client: client}
@@ -160,9 +160,9 @@ if err == nil {
 ```go
 import (
 	"os"
-	"github.com/wechatpay-apiv3/wechatpay-go/core"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/consts"
-	"github.com/wechatpay-apiv3/wechatpay-go/services/fileuploader"
+	"github.com/lnyyj/wechatpay-go/core"
+	"github.com/lnyyj/wechatpay-go/core/consts"
+	"github.com/lnyyj/wechatpay-go/services/fileuploader"
 )
 
 file, err := os.Open("resource/demo.jpg")
@@ -408,10 +408,10 @@ import (
 	"path/to/your/custom_signer"
 	"path/to/your/custom_verifier"
 
-	"github.com/wechatpay-apiv3/wechatpay-go/core"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/auth/credentials"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/auth/validators"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/option"
+	"github.com/lnyyj/wechatpay-go/core"
+	"github.com/lnyyj/wechatpay-go/core/auth/credentials"
+	"github.com/lnyyj/wechatpay-go/core/auth/validators"
+	"github.com/lnyyj/wechatpay-go/core/option"
 )
 
 func NewCustomClient(ctx context.Context, mchID string) (*core.Client, error) {

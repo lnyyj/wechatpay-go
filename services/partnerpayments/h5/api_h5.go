@@ -17,10 +17,10 @@ import (
 	neturl "net/url"
 	"strings"
 
-	"github.com/wechatpay-apiv3/wechatpay-go/core"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/consts"
-	"github.com/wechatpay-apiv3/wechatpay-go/services"
-	"github.com/wechatpay-apiv3/wechatpay-go/services/partnerpayments"
+	"github.com/lnyyj/wechatpay-go/core"
+	"github.com/lnyyj/wechatpay-go/core/consts"
+	"github.com/lnyyj/wechatpay-go/services"
+	"github.com/lnyyj/wechatpay-go/services/partnerpayments"
 )
 
 type H5ApiService services.Service

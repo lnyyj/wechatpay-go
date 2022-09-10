@@ -15,10 +15,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/wechatpay-apiv3/wechatpay-go/core"
-	"github.com/wechatpay-apiv3/wechatpay-go/core/option"
-	"github.com/wechatpay-apiv3/wechatpay-go/services/payments/app"
-	"github.com/wechatpay-apiv3/wechatpay-go/utils"
+	"github.com/lnyyj/wechatpay-go/core"
+	"github.com/lnyyj/wechatpay-go/core/option"
+	"github.com/lnyyj/wechatpay-go/services/payments/app"
+	"github.com/lnyyj/wechatpay-go/utils"
 )
 
 func ExampleAppApiService_CloseOrder() {
